@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* Shared style */
+.primary-btn {
+  background-color: #FEA301;
+  color: white;
+  width: 197px;
+  height: 50px;
+  border-style: none;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.primary-btn:hover {
+  background-color: skyblue;
+  transform: scale(1.07);
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 30px #008000b2;
+}
+
+
+/* Navbar Style */
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 186px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.nav-logo h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  font-size: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.home a {
+  color: #FEA301;
+  font-weight: bold;
+}
+
+.about a {
+  color: #01ACFD;
+  font-weight: 500;
+}
+
+.facilities a {
+  color: #05D4DF;
+  font-weight: 500;
+}
+
+.admission a {
+  color: #5D58EF;
+  font-weight: 500;
+}
+
+.hamburger-logo {
+  display: none;
+  width: auto;
+}
+
+
+/* Banner style */
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.banner-title-container {
+  width: 640px;
+}
+
+.banner-title-container h1 {
+  font-size: 56px;
+  font-weight: 700;
+  max-width: 550px;
+}
+
+.banner-title-container p {
+  font-size: 20px;
+  padding: 24px 0px;
+}
+
+.empowering {
+  color: #FEA301;
+}
+
+.towards-vision {
+  color: #01ACFD;
+}
+
+.banner-btn,
+.stories-btn {
+  background-color: black;
+}

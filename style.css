@@ -20,7 +20,7 @@
   height: 50px;
   border-style: none;
   border-radius: 12px;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
 }
 
@@ -357,11 +357,9 @@
 #our-stories .card-1 p {
   color: #666666;
   padding: 0px 68px 34px 38px;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 500;
 }
-
-
 
 /* footer style */
 footer {
@@ -392,13 +390,13 @@ footer {
 }
 
 .footer-logo h2 {
-  font-size: 42px;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.0;
 }
 
 .footer-second-div h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   padding-bottom: 32px;
 }
@@ -420,7 +418,7 @@ footer {
 
 
 .footer-third-div h4 {
-  font-size: 26px;
+  font-size: 1.5rem;
   font-weight: 700;
   padding-bottom: 32px;
 }
@@ -434,15 +432,13 @@ footer {
 }
 
 marquee {
-  background-color: #f0a8001a;
+  background-color: orange;
   max-width: 1158px;
   color: #01ACFD;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 5px;
 }
-
-
 
 
 /* Mobile Responsive Style */
@@ -491,21 +487,20 @@ marquee {
 
   .banner-title-container h1 {
     width: auto;
-    font-size: 32px;
+    font-size: 2rem;
     margin: 0px 20px;
   }
 
   .banner-title-container p {
-    font-size: 14px;
+    font-size: 1rem;
     padding: 18px 0px;
   }
 
   .banner-btn {
     width: 131px;
     height: 42px;
-    font-size: 16px;
+    font-size: 1rem;
   }
-
 
 
   /* Standard Curriculum style */
@@ -517,7 +512,7 @@ marquee {
   }
 
   #standard-curriculum h2 {
-    font-size: 26px;
+    font-size: 1.25rem;
   }
 
   .curriculum-container .card {
@@ -543,7 +538,7 @@ marquee {
   }
 
   .our-stories-title {
-    font-size: 26px;
+    font-size: 1.5rem;
   }
 
   #our-stories .card {
@@ -573,10 +568,8 @@ marquee {
   .stories-btn {
     width: 134px;
     height: 30px;
-    font-size: 16px;
+    font-size: 1rem;
   }
-
-
 
 
   /* footer style */
@@ -587,7 +580,7 @@ marquee {
   }
 
   .footer-logo h2 {
-    font-size: 35px;
+    font-size: 2rem;
   }
 
   .footer-logo img {
@@ -597,12 +590,12 @@ marquee {
   }
 
   .footer-second-div h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
     padding-bottom: 27px;
   }
 
   .footer-second-div h4 {
-    font-size: 22px;
+    font-size: 1.25rem;
     font-weight: 700;
     padding-bottom: 32px;
   }

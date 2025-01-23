@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-.quicksand-font {
+.quicksand-font-primary {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -34,7 +34,7 @@
 
 
 /* Navbar Style */
-#navbar {
+.navbar {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,7 +49,7 @@
 }
 
 .nav-logo h1 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -57,7 +57,7 @@
   display: flex;
   list-style: none;
   gap: 32px;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .nav-links a {
@@ -125,4 +125,492 @@
 .banner-btn,
 .stories-btn {
   background-color: black;
+}
+
+
+/* Banner style */
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.banner-title-container {
+  width: 640px;
+}
+
+.banner-title-container h1 {
+  font-size: 56px;
+  font-weight: 700;
+  max-width: 550px;
+}
+
+.banner-title-container p {
+  font-size: 20px;
+  padding: 24px 0px;
+}
+
+.empowering {
+  color: #FEA301;
+}
+
+.towards-vision {
+  color: #01ACFD;
+}
+
+.banner-btn,
+.stories-btn {
+  background-color: black;
+}
+
+
+
+/* Standard Curriculum style */
+
+#standard-curriculum {
+  background-image: url("assets/bg.png");
+  max-width: 1440px;
+  margin: 0% auto;
+  background-repeat: no-repeat;
+  padding: 60px 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+#standard-curriculum h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+#standard-curriculum p {
+  color: #808080;
+}
+
+.curriculum-container {
+  display: flex;
+  gap: 28px;
+}
+
+.curriculum-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 33px;
+  border-radius: 18px;
+  padding: 53px 40px;
+  box-shadow: 0px 0px 40px #00000010;
+  max-width: 367px;
+}
+
+.curriculum-container .card .h6 {
+  text-decoration: none;
+}
+
+.curriculum-container .card-1 {
+  background-image: linear-gradient(180deg, #DEF5FF, #ffffff 30%);
+  border: 1px solid #DEF5FF;
+}
+
+.curriculum-container .card-1 .h6 {
+  color: #64C8FF;
+}
+
+.curriculum-container .card-2 {
+  background-image: linear-gradient(180deg, #FFF4DC, #ffffff 30%);
+  border: 1px solid #FFF4DC;
+}
+
+.curriculum-container .card-2 .h6 {
+  color: #F0AA00;
+}
+
+.curriculum-container .card-3 {
+  background-image: linear-gradient(180deg, #F2E8FF, #ffffff 30%);
+  border: 1px solid #F2E8FF;
+}
+
+.curriculum-container .card-3 .h6 {
+  color: #8700FF;
+}
+
+.curriculum-arrow-container {
+  display: flex;
+  gap: 10px;
+}
+
+.curriculum-arrow-container img {
+  border-radius: 50%;
+}
+
+.curriculum-arrow-container img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 30px #fea101be;
+}
+
+
+
+
+/* Our Stories style */
+#our-stories {
+  background: linear-gradient(to top, #fea1012d, #fea10100), url('assets/bg.png');
+  max-width: 1440px;
+  margin: 0% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 60px 140px;
+}
+
+.our-stories-title {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.our-stories-card-container {
+  display: flex;
+  gap: 19px;
+}
+
+.four-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 19px;
+}
+
+#our-stories .card {
+  background-color: white;
+  border-radius: 16px;
+  width: 290px;
+  height: 301px;
+}
+
+#our-stories .card img {
+  display: block;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#our-stories .card button {
+  background-color: #95B226;
+  color: white;
+  border-style: none;
+  border-radius: 48px;
+  padding: 10px 19px;
+  position: absolute;
+  transform: translate(24%, -50%);
+}
+
+#our-stories .card h6 {
+  padding: 38px 38px 28px 38px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#our-stories .card-2 button {
+  background-color: #5D58F0;
+}
+
+#our-stories .card-3 button {
+  background-color: #5D58F0;
+}
+
+#our-stories .card-1 {
+  background-color: white;
+  border-radius: 16px;
+  width: 540px;
+  height: 622px;
+}
+
+#our-stories .card-1 img {
+  display: block;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#our-stories .card-1 button {
+  background-color: #3CD8E8;
+  color: white;
+  border-style: none;
+  border-radius: 48px;
+  padding: 15px 19px;
+  position: absolute;
+  transform: translate(24%, -50%);
+}
+
+#our-stories .card-1 h6 {
+  padding: 38px 38px 28px 38px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#our-stories .card-1 p {
+  color: #666666;
+  padding: 0px 68px 34px 38px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+
+/* footer style */
+footer {
+  margin: 0% auto;
+  max-width: 1440px;
+  background-color: #01ACFD;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 150px 180px;
+  gap: 150px;
+}
+
+.footer-first-div {
+  width: 300px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+.footer-logo img {
+  width: 82px;
+  height: 81px;
+  padding-right: 10px;
+}
+
+.footer-logo h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.0;
+}
+
+.footer-second-div h4 {
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 32px;
+}
+
+.footer-second-div ul li {
+  list-style: none;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.footer-third-div h4 {
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 32px;
+}
+
+
+/* Marquee   style */
+.marquee-container {
+  /* margin: 0% auto; */
+  display: flex;
+  justify-content: center;
+}
+
+marquee {
+  background-color: #f0a8001a;
+  max-width: 1158px;
+  color: #01ACFD;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px;
+}
+
+
+
+
+/* Mobile Responsive Style */
+
+@media screen and (max-width:576px) {
+
+  /* Navbar Style */
+  #navbar {
+    gap: 0px;
+    border: 1px solid #FEA301;
+    padding: 12px 16px;
+  }
+
+  .contact-btn,
+  .nav-logo h1,
+  .nav-links {
+    display: none;
+  }
+
+  .nav-logo {
+    gap: 282px;
+  }
+
+  .hamburger-logo {
+    display: block;
+  }
+
+
+  /* Banner style */
+
+  #banner {
+    flex-direction: column-reverse;
+    margin: 0px 16px;
+    padding: 20px 0px;
+    gap: 20px;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+
+  .banner-title-container {
+    width: auto;
+    text-align: center;
+  }
+
+  .banner-title-container h1 {
+    width: auto;
+    font-size: 32px;
+    margin: 0px 20px;
+  }
+
+  .banner-title-container p {
+    font-size: 14px;
+    padding: 18px 0px;
+  }
+
+  .banner-btn {
+    width: 131px;
+    height: 42px;
+    font-size: 16px;
+  }
+
+
+
+  /* Standard Curriculum style */
+  #standard-curriculum {
+    padding: 40px 10px;
+    flex-direction: column;
+    gap: 20px;
+    object-fit: cover;
+  }
+
+  #standard-curriculum h2 {
+    font-size: 26px;
+  }
+
+  .curriculum-container .card {
+    padding: 36px 28px;
+    gap: 22px;
+  }
+
+  .curriculum-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .curriculum-arrow-container {
+    display: none;
+  }
+
+
+
+  /* Our Stories style */
+  #our-stories {
+    gap: 20px;
+    padding: 40px 0px;
+  }
+
+  .our-stories-title {
+    font-size: 26px;
+  }
+
+  #our-stories .card {
+    width: 173px;
+    height: 179px;
+  }
+
+  #our-stories .card-1 {
+    display: none;
+  }
+
+  .four-card-container {
+    gap: 11px;
+    padding: 16px 20px;
+  }
+
+  #our-stories .card button {
+    padding: 6px 11px;
+    font-size: 9px;
+  }
+
+  #our-stories .card h6 {
+    padding: 28px 23px 17px 23px;
+    font-size: 10px;
+  }
+
+  .stories-btn {
+    width: 134px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+
+
+
+  /* footer style */
+  footer {
+    flex-direction: column;
+    padding: 65px 21px;
+    gap: 32px;
+  }
+
+  .footer-logo h2 {
+    font-size: 35px;
+  }
+
+  .footer-logo img {
+    width: auto;
+    height: auto;
+    padding-right: 10px;
+  }
+
+  .footer-second-div h4 {
+    font-size: 20px;
+    padding-bottom: 27px;
+  }
+
+  .footer-second-div h4 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 32px;
+  }
+
+
+
+  /* Marquee   style */
+  marquee {
+    margin-top: 10px;
+  }
 }
